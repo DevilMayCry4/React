@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Input from './Input';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-            
-          学习React开法
-        </a>
-      </header>
+    <div className="App"> 
+     <Input/>
+     <Input/>
+     <Input/>
+     <Input/>
     </div>
   );
 }
