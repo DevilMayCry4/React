@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .content {
+    flex: 1; /* 占据剩余的宽度 */
+    white-space: nowrap; /* 防止文本换行 */
+    overflow: hidden; /* 隐藏溢出文本 */
+    text-overflow: ellipsis; /* 显示省略号 */
+    text-align: left; /* 文本左对齐 */
+  }
+  
+  .checkbox {
+    flex: 0; /* 不占据剩余的宽度 */
+    margin-left: 10px; /* 为了在输入框和文本之间添加间距 */
+  }
+  
